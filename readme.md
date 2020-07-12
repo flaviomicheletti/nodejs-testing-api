@@ -25,4 +25,4 @@ O desafio era ter cobertura para o endpoint abaixo.
         }
     });
 
-O resultado deve apareer na tag seguinte (v0.0.2).
+O resultado deve aparecer na tag seguinte (v0.0.2).
