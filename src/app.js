@@ -11,15 +11,14 @@ app.get("/random", (req, res) => {
     return res.status(200).json({ value: rand });
 });
 
-
 app.get("/foo", (req, res) => {
-    const rand = Math.floor(Math.random() * 2);
+    const rand = Math.random();
+    res.status(200).json({value: rand});
 
-    if (rand) {
-        res.status(200).json({value: rand});
-    } else  {
-        res.status(400).json({value: rand});
-    }
+    // if (rand) {
+    // } else  {
+    //     res.status(400).json({value: rand});
+    // }
 });
 
 module.exports = app;
