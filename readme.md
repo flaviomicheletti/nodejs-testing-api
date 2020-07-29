@@ -11,7 +11,7 @@ https://github.com/jest-community/vscode-jest#how-do-i-show-code-coverage
 
 ### Estado(tags) deste repositório
 
-__v0.0.1:__
+__[v0.0.1:](https://github.com/flaviomicheletti/nodejs-testing-api/releases/tag/v0.0.1)__
 
 O desafio era ter cobertura para o endpoint abaixo.
 
