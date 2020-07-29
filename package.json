@@ -15,7 +15,6 @@
     "start": "node ./src/server",
     "debug": "nodemon --inspect ./src/server.js",
     "test": "jest",
-    "test:integration": "jest",
     "coverage": "jest --coverage"
   },
   "keywords": [],

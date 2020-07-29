@@ -24,5 +24,3 @@ O desafio era ter cobertura para o endpoint abaixo.
             res.status(400).json({value: rand});
         }
     });
-
-O resultado deve aparecer na tag seguinte (v0.0.2).
