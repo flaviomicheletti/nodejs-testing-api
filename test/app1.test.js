@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("../src/app");
 
-describe("Testing API", () => {
+describe("Desafio 1", () => {
 
   test("GET /", () => {
     return request(app)
@@ -35,7 +35,7 @@ describe("Testing API", () => {
       .expect('Content-Type', /json/)
       .expect(200)
       .then(response => {
-        expect(response.body.value).toBe(1);
+        expect(response.body.value).toBe(true);
       });
 
   });
@@ -49,7 +49,7 @@ describe("Testing API", () => {
       .expect('Content-Type', /json/)
       .expect(501)
       .then(response => {
-        expect(response.body.value).toBe(0);
+        expect(response.body.value).toBe(false);
       });
   });
 
