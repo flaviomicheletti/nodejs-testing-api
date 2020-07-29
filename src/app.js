@@ -1,4 +1,3 @@
-//app.js
 const express = require("express");
 const app = express();
 
@@ -12,13 +11,13 @@ app.get("/random", (req, res) => {
 });
 
 app.get("/foo", (req, res) => {
-    const rand = Math.random();
-    res.status(200).json({value: rand});
+    const rand = Math.floor(Math.random() * 2);
 
-    // if (rand) {
-    // } else  {
-    //     res.status(400).json({value: rand});
-    // }
+    if (rand) {
+        return res.status(200).json({ value: rand });
+    } else {
+        return res.status(501).json({ value: rand });
+    }
 });
 
 module.exports = app;
