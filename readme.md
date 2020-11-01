@@ -1,11 +1,8 @@
+![supertest](https://user-images.githubusercontent.com/1257048/97815394-76cb1b00-1c6c-11eb-86e5-6e23cd9d24d6.png)
+
 # Node testing API
 
-Adivinha ? 
+Eu aqui brincando de testar API no Node, só para variar!
 
-Estou aqui brincando de testar API no Node.
-
-### Show Code coverage in VSCode
-
-https://github.com/jest-community/vscode-jest#how-do-i-show-code-coverage
-
+https://github.com/visionmedia/supertest
 
